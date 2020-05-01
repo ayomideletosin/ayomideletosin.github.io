@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: "SF Pro display";
+    width: 100vw;
+    height: 90vh;
 }
 header {
     width: 100%;
@@ -32,14 +34,19 @@ header::after {
     clear: both;
 }
 .signUpDiv {
-    max-width: 500px;
+    width: 50vw;
     border-radius: 20px;
     border: 1px solid rgb(197, 36, 197);
     margin: auto;
     box-sizing: border-box;
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 15vh;
     background: white; rgba(223, 202, 202, 0.185);
+}
+@media screen and (max-width: 480px) {
+    .signUpDiv {
+        width: 90vw;
+    }
 }
 h2 {
     text-align: center;

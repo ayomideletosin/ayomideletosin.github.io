@@ -30,9 +30,10 @@ header {
 .buttonContainer {
     margin-top: 90px;
     text-align: center;
+    width: 100vw;
 }
 button{
-    margin: 25px;
+    margin: 1vw;
     background: white;
     outline: none;
     height: 30px;
@@ -53,7 +54,7 @@ table {
     margin-left: 60px;
 }
 #id {
-    width: 0.4fr;
+    width: 0.2fr;
 }
 #laptopInfo, #requestType, #affectedComponent, #details {
     width: 0.2fr;
@@ -102,9 +103,6 @@ table {
     align-items: center;
     font-family: "SF Pro Display";
     display: none;
-}
-.hiddenRequestDetails {
-    
 }
 .content {
     background: #fff;

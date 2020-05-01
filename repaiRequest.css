@@ -6,10 +6,23 @@
 hr {
     color: red;
 }
+html, body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+    margin-top: 10.5vh;
+    width: 100vw;
+}
 
 header {
     width: 100%;
-    background: rgba(223, 202, 202, 0.185);
+    background: rgba(88, 3, 3, 0.185);
     height: 10vh;
     position: fixed;
     top: 0;
@@ -92,33 +105,29 @@ h3.requestHeadings {
 }
 .requestFormDiv {
     justify-items: center;
-    height: 95vh;
+    height: 85vh;
     display: flex;
     position: relative;
     background: url(../img/whiteLaptop.jpg);
     background-size: 100vw 100vh;
-    margin-top: 10vh;
-   
     flex-direction: column;
+    width: 100vw;
     
 }
 .transparentContainer {
-    
     opacity: 0.9;
     justify-items: center;
     align-items: center;
-    width: 100%;
-
+    width: 100vw;
     height: 100%;
     position: absolute;
     justify-content: space-around; 
 
 }
 .requestForm {
-    width: 80vh;
+    width: 80vw;
     margin:auto;
-    
-   
+ 
 }
 
 .titleSection {
@@ -197,63 +206,19 @@ input[type=submit]:hover {
     color: rgb(235, 53, 65);
     text-align: center;
     letter-spacing: 2px;
-    margin-top: 50px;
+    margin-top: 5px;
     font-weight: 400px;
     font-size: 40px;
     font-family: Arial;
     
-}
-p {
-    font-weight: 200px;
-    color: rgb(214, 18, 18);
-    font-size: 22px;
-    margin-top: 30px;
-}
-.testimonies {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-top: 30px;
-}
-.imageTestimony1 {
-    border: 2px solid purple;
-    grid-column: 1 / span 1;
-    background: url(img/Dele.JPG);
-    background-position: top;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-.testimonyText1 {
-    grid-column: 2 / span 1;
-    margin-right: 100px;
-}
+} 
 
-.imageTestimony2 {
-    border: 2px solid purple;
-    grid-column: 3 / span 1;
-    background: url(img/Dele.JPG);
-    background-position: top;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-.testimonyText2 {
-    grid-column: 4 / span 1;
-    margin-right: 15px;
-}
-.testimonyText{
-    font-family:  Arial;
-    font-weight: 100;
-    font-size: 18px;
-}
 footer {
     text-align: center;
-    left: 0;
-    bottom: 0;
-    background: rgba(223, 202, 202, 0.185);
+    height: 5vh;
     color: #FF162B;
-    height: 10vh;
+    padding-top: 30px;
     width: 100%;
+    bottom: 0;
+    position: absolute;
 }
